@@ -4,9 +4,9 @@
 // THIS IS SAMPLE CODE ONLY - NOT MEANT FOR PRODUCTION USE
 import { BlobServiceClient, ContainerClient} from '@azure/storage-blob';
 
-const containerName = `tutorial-container`;
-const sasToken = process.env.REACT_APP_STORAGESASTOKEN;
-const storageAccountName = process.env.REACT_APP_STORAGERESOURCENAME; 
+const containerName = 'pmo-src-inbound';
+const sasToken = '?sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2023-01-01T02:02:23Z&st=2022-07-14T17:02:23Z&spr=https&sig=aMeAJT7FsIHalCIDTr9FYSn3qhOu18AKip7PEuzy%2B1M%3D';
+const storageAccountName = 'santoshrgadls'; 
 // </snippet_package>
 
 // <snippet_isStorageConfigured>

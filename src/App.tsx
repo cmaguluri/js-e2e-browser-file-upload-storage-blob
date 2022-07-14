@@ -70,7 +70,8 @@ const App = (): JSX.Element => {
 
   return (
     <div>
-      <h1>Upload file to Azure Blob Storage</h1>
+      <h1>PMO Upload Page</h1>
+      <h3>Upload file to Azure Blob Storage</h3>
       {storageConfigured && !uploading && DisplayForm()}
       {storageConfigured && uploading && <div>Uploading</div>}
       <hr />
